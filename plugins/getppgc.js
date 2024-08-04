@@ -17,7 +17,7 @@ let handler = async (m, { conn, command }) => {
 		});
 	}
 };
-handler.help = ["getppgc"];
+handler.help = ["بروفايل"];
 handler.tags = ['owner'];
 handler.command = /^(getppgc)$/i;
 export default handler;
